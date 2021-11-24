@@ -1,40 +1,7 @@
-# Copyright (c) 3DUniversum BV. All rights reserved.
-#
-# THIS SOFTWARE IS PROVIDED BY 3DUNIVERSUM B.V. "AS IS" AND ANY EXPRESS OR
-# IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
-# OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-# IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY
-# DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-# ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
 import torch
 import torch.nn as nn
-from torch.nn import init
-from torch.optim import lr_scheduler
 import torch.nn.functional as F
-import os
-import time
 
-
-def printTensorList(data):
-    if isinstance(data, dict):
-        print('Dictionary Containing: ')
-        print('{')
-        for key, tensor in data.items():
-            print('\t', key, end='')
-            print(' with Tensor of Size: ', tensor.size())
-        print('}')
-    else:
-        print('List Containing: ')
-        print('[')
-        for tensor in data:
-            print('\tTensor of Size: ', tensor.size())
-        print(']')
 
 class ratioCals(nn.Module):
     """

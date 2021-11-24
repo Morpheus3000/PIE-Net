@@ -9,11 +9,9 @@ import cv2
 
 import torch
 from torch.autograd import Variable
-from torch.utils.data import DataLoader
 
 from Network import DecScaleClampedIllumEdgeGuidedNetworkBatchNorm
 from Utils import mor_utils
-from torchsummary import summary
 
 
 torch.backends.cudnn.benchmark = True
