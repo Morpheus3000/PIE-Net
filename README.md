@@ -20,7 +20,7 @@ The repository is provided in the same structure that the scripts expects the ot
 ./test_outputs/ - Contains sample images to run the test on.\
 ./Eval.py       - Evaluation code to run the model on a given folder containing the test images.\
 ./Network.py    - Network definition of PIENet.\
-./Utils.py      - Supporting script providing convenient functions for loading and saving models, writing output images, etc.\
+./Utils.py      - Supporting script providing convenient functions for loading and saving models, writing output images, etc.
 
 ## Requirements
 Please install the following:
