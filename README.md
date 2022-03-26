@@ -9,7 +9,7 @@ Our model exploits illumination invariant features in an edge-driven hybrid CNN 
 
 The predicted reflectance by the network is able to minimise both soft and hard illumination effects. Conversely, the predicted shading minimises texture leakages.
 
-![Our model's prediction](/images/Output_teaser.png "The proposed method.")
+![Our model's prediction](/images/Output_teaser_github.png "The proposed method.")
 
 The network code, the pretrained model (trained only on synthetic outdoor data) and the fine tuned models on the MIT and IIW datasets are provided. Please download the pretrained and finetuned models from the project page.
 
