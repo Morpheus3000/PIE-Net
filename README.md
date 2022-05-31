@@ -1,7 +1,7 @@
 # PIE-Net: Photometric Invariant Edge Guided Network for Intrinsic Image Decomposition
 This is the official model and network release for the paper:
 
-P. Das, S. Karaoglu and T. Gevers, [PIE-Net: Photometric Invariant Edge Guided Network for Intrinsic Image Decomposition](https://ivi.fnwi.uva.nl/cv/pienet/assets/PIE_NET_CVPR_2022_main_paper.pdf), IEEE Conference of Computer Vision and Pattern Recognition (CVPR), 2022. The official project page can be found [here](https://ivi.fnwi.uva.nl/cv/pienet/).
+P. Das, S. Karaoglu and T. Gevers, [PIE-Net: Photometric Invariant Edge Guided Network for Intrinsic Image Decomposition](https://ivi.fnwi.uva.nl/cv/pienet/assets/PIE_NET_CVPR_2022_main_paper.pdf), IEEE Conference of Computer Vision and Pattern Recognition (CVPR), 2022. The official project page can be found [here](https://ivi.fnwi.uva.nl/cv/pienet/). The pretrained model for the realworld evaluations can be downloaded from [here](https://uvaauas.figshare.com/articles/conference_contribution/real_world_model_t7/19940000)
 
 Our model exploits illumination invariant features in an edge-driven hybrid CNN approach. The model is able to predict physically consistent reflectance and shading from a single input image, without the need for any specific priors. The network is trained without any specialised dataset or losses. 
 
@@ -34,7 +34,7 @@ Please install the following:
 In the file Eval.py you can point to your custom image directory in L38. In
 L39, the format of the image files to be looked for can be specified. The
 output directory for the model can be set in L33. The script will create a new
-folder if the folder doesn't exists.\
+folder if the folder doesn't exists.
 
 Finally, in L36, set the location to the downloaded model file and save your changes.
 The script can then be run from the command line as follows:
@@ -50,7 +50,7 @@ The outputs are as follows:
 ## Contact
 If you have any questions, please contact the P. Das.
 
-##Citation
+## Citation
 Please cite the paper if it is useful in your research:
 
 ```
