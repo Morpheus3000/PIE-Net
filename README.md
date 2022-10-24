@@ -48,7 +48,7 @@ The outputs are as follows:
 *_pred_shd.png: The predicted shading.
 
 ## Contact
-If you have any questions, please contact the P. Das.
+If you have any questions, please contact P. Das.
 
 ## Citation
 Please cite the paper if it is useful in your research:
